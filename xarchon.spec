@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://xarchon.seul.org/%{name}-%{version}.tar.gz
+# Source0-md5:	491dea5b4e61ed13cd988d1c184a8ef0
 Patch0:		%{name}-DESTDIR.patch
 Patch1:		%{name}-ac.patch
 URL:		http://xarchon.seul.org/
