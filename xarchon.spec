@@ -31,9 +31,9 @@ X Window.
 %patch0 -p1
 
 %build
-automake -a -c -f
+%{__automake}
 aclocal
-autoconf
+%{__autoconf}
 %configure \
 	--with-x
 %{__make}
