@@ -10,6 +10,8 @@ Group(pl):	X11/Aplikacje/Gry
 Source0:	http://xarchon.seul.org/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
 URL:		http://xarchon.seul.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtk+-devel > 1.2.1
 BuildRequires:	glib-devel
 BuildRequires:	esound-devel
