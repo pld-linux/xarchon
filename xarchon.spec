@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://xarchon.seul.org/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
+Patch1:		%{name}-ac.patch
 URL:		http://xarchon.seul.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -29,10 +30,9 @@ X Window.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
-mv acinclude.m4 acinclude.m4.tmp
-cat acinclude.m4.tmp|sed -e 's/AC_LANG/AC_LANG_CPLUSPLUS/'>acinclude.m4
 aclocal
 %{__automake}
 %{__autoconf}
