@@ -1,5 +1,5 @@
-Summary:	Archon game.
-Summary(pl):	Gra Archon.
+Summary:	Archon game
+Summary(pl):	Gra Archon
 Name:		xarchon
 Version:	0.50
 Release:	2
