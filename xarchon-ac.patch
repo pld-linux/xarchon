@@ -1,0 +1,12 @@
+diff -urN xarchon-0.50.dziki/acinclude.m4 xarchon-0.50/acinclude.m4
+--- xarchon-0.50.dziki/acinclude.m4	Wed Aug  7 16:57:59 2002
++++ xarchon-0.50/acinclude.m4	Fri Aug 20 19:55:05 1999
+@@ -35,7 +35,7 @@
+ AC_TRY_LINK(dnl
+ ifelse([$2], [main], , dnl Avoid conflicting decl of main.
+ [/* Override any gcc2 internal prototype to avoid an error.  */
+-]ifelse(AC_LANG_CPLUSPLUS, CPLUSPLUS, [#ifdef __cplusplus
++]ifelse(AC_LANG, CPLUSPLUS, [#ifdef __cplusplus
+ extern "C"
+ #endif
+ ])dnl
