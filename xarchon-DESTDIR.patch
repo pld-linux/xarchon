@@ -1,0 +1,14 @@
+diff -urN xarchon-0.50.org/data/Makefile.am xarchon-0.50/data/Makefile.am
+--- xarchon-0.50.org/data/Makefile.am	Sun Mar 11 02:05:43 2001
++++ xarchon-0.50/data/Makefile.am	Sun Mar 11 02:06:36 2001
+@@ -7,8 +7,8 @@
+ 	   echo "--> Installing theme '$$theme'"; \
+ 	   THEME_DIRS=`find $$theme -type d`; \
+ 	   for p in $$THEME_DIRS; do \
+-	      echo "mkdir $(pkgdatadir)/$$p"; \
+-	      mkdir $(pkgdatadir)/$$p; \
++	      echo "mkdir $(DESTDIR)$(pkgdatadir)/$$p"; \
++	      mkdir $(DESTDIR)$(pkgdatadir)/$$p; \
+ 	   done; \
+ 	   THEME_FILES=`find $$theme -type f`; \
+ 	   for p in $$THEME_FILES; do \
