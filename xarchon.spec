@@ -2,7 +2,7 @@ Summary:	Archon game
 Summary(pl):	Gra Archon
 Name:		xarchon
 Version:	0.50
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://xarchon.seul.org/%{name}-%{version}.tar.gz
