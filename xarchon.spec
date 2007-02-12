@@ -1,5 +1,5 @@
 Summary:	Archon game
-Summary(pl):	Gra Archon
+Summary(pl.UTF-8):   Gra Archon
 Name:		xarchon
 Version:	0.50
 Release:	4
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 X ARCHON, as the name implies, is a clone of the original (about
 15-years old) ARCHON game. And, it's for the X Window System.
 
-%description -l pl
+%description -l pl.UTF-8
 X ARCHON to klon (ok. 15-letniej) gdy ARCHON przeznaczony dla systemu
 X Window.
 
